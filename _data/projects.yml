@@ -1,0 +1,240 @@
+- title: RAEMAP
+  term: 2019 - present
+  description: |-
+    Real-Time Advanced Eye Movements Analysis Pipeline (RAEMAP) is an advanced pipeline to analyze traditional positional gaze measurements as well as advanced eye gaze measurements. 
+    The implementation of RAEMAP includes real-time analysis of fixations, saccades, gaze transition entropy, ambient/focal viewing coefficient, and real-time measure of cognitive load. 
+    RAEMAP provides visualizations of generated advanced gaze measures in real-time.
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - HvPlot
+    - Web-sockets
+
+- title: Joint Visual Attention and Joint Mental Effort in Collaborative Learning
+  term: 2023
+  description: |-
+    Explored the relationship between joint visual attention and joint mental effort in collaborative learning environments by conducting a data analysis of eye tracking datasets from three studies in collaboration with Dr. Bertrand Schneider from Harvard University, Cambridge, MA. 
+    Analyzed joint visual attention and joint mental effort, and how they support collaboration in terms of collaboration quality and learning gains from previous experiments.
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+
+- title: Detect Cognitive Load in Real-Time using Pupillary Activity
+  term: 2022
+  description: |-
+    Re-designed and implemented the Low/High Index of Pupillary Activity (LHIPA), an eye-tracked measure of pupil diameter oscillation to function in real-time, in collaboration with Dr. Andrew Duchowski from Clemson University.
+    The novel Real-time IPA (RIPA) is shown to discriminate cognitive load in re-streamed eye-tracking data from previous experiments.
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - Savitzky-Golay Filter
+
+- title: GROBID based Scholarly PDF Header and Full Text Extractor
+  term: 2021 & 2022
+  description: |-
+    Designed and developed a software to extract header information such as title, abstract, keywords, authors, affiliations, and full text from scholarly PDF documents in real-time and process extracted data. 
+    Goal was to populate LANL's Review & Approval System, RASSTI’s forms with extracted data.
+  technologies:
+    - Python
+    - GROBID
+    - BeautifulSoup
+    - Flask
+    - Sphinx
+    - HTML
+
+- title: Automate Filtering of Eye Movements
+  term: 
+  description: |-
+    Designed a study to detect dynamic areas of interest using object detectors and filter eye movement data that falls within the polygonal boundaries of detected dynamic AOIs.
+  technologies:
+    - Python
+    - Pandas
+    - OpenCV
+    - Detectron
+  
+- title: Analyze Performance of Adolescents with ADHD Using Eye-Tracking
+  term: 
+  description: |-
+    Conducted a pilot study to assess audiovisual Speech-In-Noise (SIN) performance of adolescents with ADHD compared to age-matched controls using eye-tracking measures. 
+    Found that some signal-to-noise ratios shifts noise to a point where processing of speech becomes less automatic and relies more on increased cognitive load.
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - Tobii Studio analysis software
+    
+- title: Predicting ADHD using Eye Movements
+  term: 
+  description: |-
+    Developed a feasibility study to confirm eye movement data as a predictor of a diagnosis of ADHD in adults. 
+    Tree-based classifiers performed with 91% accuracy.
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - WEKA
+    - Tobii Studio analysis software
+
+- title: Focused Crawler for Academic Web
+  term: 
+  description: |-
+    Designed a study to determine the next set of crawl URLs using URL update frequencies from crawl history.
+  technologies:
+    - Internet Archive
+    - Python
+    - NumPy
+    - Pandas
+
+
+- title: Table of Contents (TOC) for Blog Posts
+  term: 
+  description: |-
+    Developed a browser extension, utilizing article segmentation and extractive summarization to generate Wikipedia-style TOC for blog posts to serve both as an article summary, and as a shortcut to navigate to sections of interest.
+  technologies:
+    - Python
+    - HTML
+    - InferSent
+    - NLTK Tokenizer
+    - LexRank
+ 
+- title: A Blockchain-Based System for Department of Motor Vehicles (DMV) of Virginia
+  term: 
+  description: |-
+    Constructed a blockchain-based system for DMV where, drivers, vehicle owners, police departments, and car dealers can all benefit from the DMV's online services, without a customer service representative.
+  technologies:
+    - Ganache
+    - Metamask
+    - Web3
+    - Truffle
+    - HTML
+    - CSS
+    - Vue.js
+
+- title: March Madness Prediction - NCAA® tournaments in 2017, 2018, 2019
+  term: 
+  description: |-
+    Created ML models to predict which team would win at each possible game in the next season, as a probability. We trained and evaluated each model using the four feature-sets, and evaluated their performances in terms of classification accuracy, and log loss.
+  technologies:
+    - Scikit-Learn
+    - Logistic Regression
+    - K-Nearest Neighbors (k=3)
+    - Random Forest
+    - FCNN
+
+- title: Specialty Search Engine (SSE) to Explore Sri Lanka (SL)
+  term: 
+  description: |-
+    Designed and developed a SSE to explore SL across multiple websites by crawling a set of seed URLs. 
+    This SSE provides a collection of results about certain attractions in SL, by ranking the results, and avoiding promotional content such as tours & hotels.
+  technologies:
+    - Elasticsearch
+    - Kibana
+    - Scrapy
+    - Python
+    - HTML
+    - CSS
+    - JS
+    - JQuery
+
+- title: MSstack
+  term: 2018
+  description: |-
+    A full-stack, event-driven, microservices framework for Java, with business modeling.
+    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
+    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
+    It also facilitates generating boilerplate code from Business Process Models.
+  technologies:
+    - Java
+    - Netty
+    - Kafka
+    - Zookeeper
+    - Curator
+    - Git
+
+- title: DengAI
+  term: 2017
+  description: |-
+    A competition hosted by DrivenData, to model the spread of Dengue using weather and geographical information.
+    Built a machine learning model that ranked #1 in 2017.
+  technologies:
+    - Python
+    - Scikit-Learn
+    - Pandas
+    - WEKA
+
+- title: Automate API Code Generation
+  description: |- 
+    Developed a program to automatically generate and update API documentation using the code base.
+  technologies:
+    - Java
+    - OpenAPI/Swagger
+    - Maven
+    - Mustache templating
+    - HTML
+    - CSS
+    - JS
+
+- title: Information System for Goldline Tours and Tyres Centre
+  description: |- 
+    Designed and developed an Information System for a company. Mainly focused on Inventory Management, Employee Management and day to day transactions.
+  technologies:
+    - C#
+    - MySQL
+
+- title: AutoMate
+  description: |- 
+    Designed and developed a mobile application to report accidents to the insurance company by the owner of the vehicle himself. The app supports sending pictures of the damage along with the insurance policy details.
+  technologies:
+    - AngularJS
+    - Ionic framework
+    - HTML
+    - PHP
+    - Laravel
+
+- title: Congress Management Application
+  description: |- 
+    Developed a web application to manage parallel activities of a congress. Mainly focused on providing feedback to the speaker and asking questions from the speakers.
+  technologies:
+    - Node.js
+    - AngularJS
+    - HTML
+    - CSS
+
+- title: Rapidoid Plugin for Swagger Codegen
+  description: |- 
+    Developed a program to automatically generate the Rapidoid framework’s syntax adhered server- side code for Swagger codegen.
+  technologies:
+    - Java
+    - Rapidoid
+    - OpenAPI/Swagger
+    - Mustache templating
+
+- title: MedFriend
+  term: 2017
+  description: |-
+    Designed a Web and Mobile application to manage Medical Records of patients which allows authorized Doctors to view and edit.
+  technologies:
+    - PHP
+    - Laravel
+    - HTML
+    - CSS
+    - jQuery
+    - Angular2
+    - Ionic2
+    - Typescript
+    - MySQL
+
+- title: MusicSchool
+  term: 2016
+  description: |-
+    A web platform to manage information of a medium sized music school.
+    It supports classroom management, progress tracking, attendance, and payroll.
+  technologies:
+    - PHP
+    - Laravel
+    - jQuery
+    - MySQL
+    - HTML/JS/CSS

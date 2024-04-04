@@ -1,0 +1,55 @@
+- type: Journal Articles
+  publications:
+    - value: Bhanuka Mahanama, Yasith Jayawardana, Sundararaman Rengarajan, Gavindya Jayawardena, Leanne Chukoskie, Joseph Snider, and Sampath Jayarathna. “Eye Movement and Pupil Measures- A Review”, in Frontiers in Computer Science – Human-Media Interaction. Vol. 3. Frontiers Media, 2022
+    - value: Gavindya Jayawardena, and Sampath Jayarathna. "Automated Filtering of Eye Movements using Dynamic AOI in Multiple Granularity Levels", in International Journal of Multimedia Data Engineering and Management (IGI-Global IJMDEM), 2020 [Invited Journal Paper - IEEE IRI 2020]
+    - value: Abeysinghe, Yasasi, Bhanuka Mahanama, Gavindya Jayawardena, Mohan Sunkara, Vikas Ashok, and Sampath Jayarathna. "A-DisETrac Advanced Analytic Dashboard for Distributed Eye Tracking." in International Journal of Multimedia Data Engineering and Management (IGI-Global IJMDEM), 2024 [Invited Journal Paper - IEEE IRI 2023]
+
+- type: Book Chapters
+  publications:
+    - value: Anne Michalek, Gavindya Jayawardena, Sampath Jayarathna "Predicting ADHD using Eye Gaze Metrics Indexing Working Memory Capacity", In Computational Models for Biomedical Reasoning and Problem Solving, April 2019 p. 66-88
+  
+- type: Conference Proceedings
+  publications:
+    - value: Abeysinghe, Yasasi, Bhanuka Mahanama, Gavindya Jayawardena, Mohan Sunkara, Vikas Ashok, and Sampath Jayarathna. "Gaze Analytics Dashboard for Distributed Eye Tracking." In 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI 2023), IEEE, 2023.
+    - value: Jayawardena, Gavindya, Yasith Jayawardana, Sampath Jayarathna, Jonas Högström, Thomas Papa, Deepak Akkil, Andrew T. Duchowski et al. "Toward a Real-Time Index of Pupillary Activity as an Indicator of Cognitive Load." In 26th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES 2022) Procedia Computer Science 207 (2022).
+    - value: Bhanuka Mahanama, Gavindya Jayawardena, Yasasi Abeysinghe, Vikas G. Ashok,  and Sampath Jayarathna, "Multidisciplinary Reading Patterns of Digital Documents", In Proceedings of the 14th ACM Symposium on Eye Tracking Research and Applications, (ETRA 2022).
+    - value: Mahanama, Bhanuka, Gavindya Jayawardena, and Jayarathna, Sampath. “Analyzing Unconstrained Reading Patterns of Digital Documents Using Eye Tracking”. In 2021 ACM/IEEE Joint Conference on Digital Libraries (JCDL 2021). IEEE, pp. 282–283. [Best Poster Award]
+    - value: Yasith Jayawardana, Gavindya Jayawardena, Andrew T. Duchowski, and Sampath Jayarathn). “Metadata-Driven Eye Tracking for Real-Time Applications”. In Proceedings of the 21st ACM Symposium on Document Engineering. Limerick, Ireland, ACM.
+    - value: Gavindya Jayawardena, and Sampath Jayarathna, “Automated Filtering of Eye Gaze Metrics from Dynamic Areas of Interest”, in IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI), 2020
+    - value: Gavindya Jayawardena, Sampath Jayarathna, and Jian Wu. " Analyzing the Effect of Reading Patterns using Eye Tracking Measures". Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), August 2-5, 2020, Xi'an, Shaanxi, P. R. China (in press) [Best Poster Award]
+    - value: Gavindya Jayawardena, Anne Michalek, Andrew Duchowski, and Sampath Jayarathna. "Pilot Study of Audiovisual Speech-In-Noise (SIN) Performance of Young Adults with ADHD". Proceedings of the ACM Symposium on Eye Tracking Research & Applications (ETRA), June 2-5, 2020, Stuttgart, Germany
+    - value: Senuri De Silva, Sanuwani Dayarathna, Gangani Ariyarathne, Dulani Meedeniya, Sampath Jayarathna, Anne Michalek, Gavindya Jayawardena, “A Rule-Based System for ADHD Identification using Eye Movement Data”, International Multidisciplinary Engineering Research Conference (MERCon2019), IEEE explorer, Sri Lanka, 2019. pp. 538- 543 [Best Paper Award]
+    - value: Gavindya Jayawardena, Anne Michalek and Sampath Jayarathna, “Eye Tracking Area of Interest in the Context of Working Memory Capacity Tasks,” in IEEE 20th International Conference on Information Reuse and Integration for Data Science (IRI), 2019, pp. 208–215
+    - value: Yasith Jayawardana, Randil Fernando, Gavindya Jayawardena, Dileka Weerasooriya, Indika Perera (2018). "A Full Stack Microservices Framework with Business Modelling". In 18th International Conference on Advances in ICT for Emerging Regions, ICTer 2018
+
+- type: Posters
+  publications:
+    - value: Gavindya Jayawardena, Sampath Jayarathna, and Yi He. "ADHD Prediction Through Analysis of Eye Movements With Graph Convolution Network." In 2023 Graduate Research Achievement Day, College of Sciences, ODU (2023).
+    - value: Owens, James, Gavindya Jayawardena, Yasasi Abeysinghe, Vikas G. Ashok, and Sampath Jayarathna. "Main Sequence Relationships, Task Load, and Cognitive Load." In Undergraduate Research Symposium, College of Sciences, ODU (2023). 
+    - value: Abeysinghe, Yasasi, Gavindya Jayawardena, Autumn Woodson, Efe Bozkir, Enkelejda Kasneci, Andrew Duchowski, and Sampath Jayarathna. "Exploring Human Perception while Reading Fake and Real News Articles." In 2023 Graduate Research Achievement Day, College of Sciences, ODU (2023).
+    - value: Gavindya Jayawardena, Sampath Jayarathna, and Jian Wu. "Analysis of Reading Patterns of Scientific Literature using Eye-Tracking Measures." In 2021 Graduate Research Achievement Day, College of Sciences, ODU (2021).
+    - value: Gavindya Jayawardena, Anne Michalek, and Sampath Jayarathna, "Pilot Study of Audiovisual Speech-In-Noise (SIN) Performance of Adolescence with ADHD Using Eye-Tracking", ACM CAPWIC, Newport News, VA, March 27-28, 2020"
+
+- type: Technical Reports
+  publications:
+    - value: Gavindya Jayawardena, Anne Michalek, Andrew Duchowski, and Sampath Jayarathna. "Pilot Study of Audiovisual Speech-In-Noise (SIN) Performance of Young Adults with ADHD". In arXiv:2004.08390 [q-bio.NC], Apr.2020
+    - value: Gavindya Jayawardena, Anne Michalek, and Sampath Jayarathna, "Eye Gaze Metrics and Analysis of AOI for Indexing Working Memory towards Predicting ADHD”. In arXiv:1906.07183 [cs.HC], Jun.2019
+
+- type: Doctoral Consortiums
+  publications:
+    - value: Gavindya Jayawardena. "Introducing a Real-Time Advanced Eye Movements Analysis Pipeline." In 2022 Symposium on Eye Tracking Research and Applications, pp. 1-2. (ETRA 2022) [Best Doctoral Symposium Presentation Award]
+    - value: Gavindya Jayawardena. “RAEMAP -  Real-Time Advanced Eye Movements Analysis Pipeline”. In International Conference on Artificial Intelligence in Medicine (AIME 2020), August 25–28, 2020
+    - value: Gavindya Jayawardena. “RAEMAP - Real-Time Advanced Eye Movements Analysis Pipeline”. In Symposium on Eye Tracking Research and Applications (ETRA ’20 Adjunct), June 2–5, 2020, Stuttgart, Germany.
+
+
+- type: Blogs
+  publications:
+    - value: Effect of Reading Patterns of Novice Researchers using Eye Tracking [https://ws-dl.blogspot.com/2020/04/2020-04-25-effect-of-reading-patterns.html] 
+    - value: Lab Streaming Layer (LSL) Tutorial for Windows [https://ws-dl.blogspot.com/2019/07/2019-07-15-lab-streaming-layer-lsl.html]
+    - value: Use of Cognitive Memory to Improve the Accessibility of Digital Collections [https://ws-dl.blogspot.com/2019/06/2019-06-19-use-of-cognitive-memory-to.html]
+    - value: Real-time Header Extraction from Scientific PDF Documents, Summer Research Internship Experience at Los Alamos National Laboratory [https://ws-dl.blogspot.com/2021/09/2021-09-23-real-time-header-extraction.html]
+    - value: PDFServer - Our Summer Internship at LANL [https://ws-dl.blogspot.com/2022/12/2022-12-21-pdfserver-our-summer.html]
+    - value: ADHD Prediction Through Analysis of Eye Movements With Graph Convolution Network [https://ws-dl.blogspot.com/2022/06/2022-06-18-adhd-prediction-through.html]
+    - value: ACM Symposium on Eye Tracking Research and Applications Trip Report 2023 [https://ws-dl.blogspot.com/2023/06/2023-06-20-acm-symposium-on-eye.html]
+    - value: ACM Symposium on Eye Tracking Research and Applications Trip Report 2022 [https://ws-dl.blogspot.com/2022/07/2022-07-14-acm-symposium-on-eye.html]
+    - value: CARE - Coastal Adaptation and Resilience Education [https://ws-dl.blogspot.com/2023/08/2023-08-22-care-coastal-adaptation-and.html] 

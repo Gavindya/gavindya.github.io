@@ -1,0 +1,20 @@
+url: https://yasith.dev
+title: Gavindya Jayawardena
+description: >-
+  PhD student at [@oduwsdl](https://twitter.com/@oduwsdl) [@nirdslab](https://twitter.com/@nirdslab), Interned at [@LosAlamosNatLab](https://twitter.com/@LosAlamosNatLab)
+header_pages:
+  - education.html
+  - work.html
+  - projects.html
+  - publications.html
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+theme: minima

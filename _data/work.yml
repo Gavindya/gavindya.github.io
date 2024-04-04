@@ -1,0 +1,36 @@
+- affiliation: Old Dominion University, USA
+  logo: /assets/img/odu.png
+  designation: Graduate Assistant, Department of Computer Science
+  term: Jan 2019 - Present
+  description: |-
+    I currently collaborate with Learning, Innovation, & Technology Lab at Harvard University, to explore the relationship between joint visual attention and joint mental effort in collaborative learning environments by conducting a data analysis of eye tracking datasets.
+    I also collaborated with Clemson University to detect cognitive load in real-time using pupillary activity.
+    I also built models to estimate the rate of change of the academic web using archived copies of web pages.
+    
+    I was a Teaching Assistant for the following courses.
+    * CS441/541:&nbsp;App Development for Smart Devices (Spring 2020)
+    * CS334:&nbsp;Computer Architecture (Fall 2020)
+    * CS450T:&nbsp;Database (Fall 2020)
+    * CS250:&nbsp;Problem Solving & Programming II (Spring 2021)
+  
+- affiliation: Los Alamos National Laboratory
+  logo: /assets/img/lanl.png
+  designation: Summer Graduate Research Intern
+  term: Jun 2021 - Aug 2021, Jun 2022 - Aug 2022
+  description: |-
+    I built a software to extract metadata (title, abstract, keywords, authors, affiliations) and full text from scholarly PDF documents in real-time.
+    I also developed a website to review the extracted metadata.
+
+- affiliation: University of Moratuwa, Sri Lanka
+  logo: /assets/img/uom.png
+  designation: Teaching Assistant, Department of Computer Science and Engineering
+  term: Jan 2018 - Jun 2018
+  description: |-
+    I prepared course materials, conducted lectures, and graded student assignments for the course CS2963:&nbsp;Presentation Skills
+
+- affiliation: UStocktrade (Pvt) Ltd, Sri Lanka
+  logo: /assets/img/ustck.png
+  designation: Software Engineering Intern
+  term: Jun 2017 - Dec 2017
+  description: |-
+    I developed a program to reduce documentation efforts by automating the API documentation generation based on code changes.

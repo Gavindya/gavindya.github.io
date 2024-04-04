@@ -1,0 +1,37 @@
+- name: Old Dominion University, USA
+  logo: /assets/img/odu.png
+  degree: Ph.D.
+  major: Computer Science
+  term: Jan 2019 - Present
+  description: |-
+    I study and collaborate on research involving Eye-Tracking, Human-Computer Interaction, Data Science, Information Retrieval, and Machine Learning.
+    I use eye-tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ADHD.
+    As my dissertation project, I am developing RAEMAP, a pipeline to analyze gaze measures in real-time.
+  extra:
+    - key: GPA
+      value: 4.0
+    - key: Awards
+      value: Dominion Graduate Scholar (2019), Computer Science Outstanding Researcher Award (2019-2020), Computer Science Irwin B. Levinstein Scholarship (2020-2021)
+    - key: Advisor
+      value: Dr. Sampath Jayarathna
+    - key: Key Courses
+      value: Data Science and Analytics, Machine Learning, Practical Machine Learning and Applications, Information Retrieval, Algorithms and Data Structures, Computer Architecture, DevOps & Containers, Natural Language Processing, Blockchains and Cryptocurrencies, Deep Learning on Graphs
+
+- name: University of Moratuwa, Sri Lanka
+  logo: /assets/img/uom.png
+  degree: B.Sc.
+  major: Computer Science and Engineering
+  term: Jan 2015 - Dec 2018
+  description: |-
+    I studied Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, Machine Learning, and Human Computer Interaction.
+    As my thesis project I built a full-stack, event-driven, microservices framework for Java, with business modeling.
+  extra:
+    - key: GPA
+      value: 3.85
+    - key: Awards
+      value: Dean’s List (Semester 1, 6, 7, 8)
+    - key: Advisor
+      value: Dr. Indika Perera
+    - key: Key Courses
+      value: Human Computer Interaction, Machine Learning, Advanced Algorithms, Data Mining & Information Retrieval, Distributed Systems, Bio-informatics
+
