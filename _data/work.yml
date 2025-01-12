@@ -1,7 +1,14 @@
+- affiliation: The University of Texas at Austin, USA
+  logo: 
+  designation: Bullard Postdoctoral Research Fellow, School of Information
+  term: Sep 2024 - Current
+  description: |-
+    I am collaborating with Dr. Jacek Gwizdka at the Information eXperience (IX) Lab. My research leverages neuro-physiological evidence to deepen our understanding of human-information interaction. As part of my fellowship, I plan to explore the use of real-time cognitive load detection algorithms in applied contexts. 
+
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
-  term: Jan 2019 - Present
+  term: Jan 2019 - Aug 2024
   description: |-
     I currently collaborate with Learning, Innovation, & Technology Lab at Harvard University, to explore the relationship between joint visual attention and joint mental effort in collaborative learning environments by conducting a data analysis of eye tracking datasets.
     I also collaborated with Clemson University to detect cognitive load in real-time using pupillary activity.
