@@ -2,11 +2,11 @@
   logo: /assets/img/odu.png
   degree: Ph.D.
   major: Computer Science
-  term: Jan 2019 - Present
+  term: Jan 2019 - Aug 2024
   description: |-
-    I study and collaborate on research involving Eye-Tracking, Human-Computer Interaction, Data Science, Information Retrieval, and Machine Learning.
-    I use eye-tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ADHD.
-    As my dissertation project, I am developing RAEMAP, a pipeline to analyze gaze measures in real-time.
+    I studied and collaborated on research involving Eye-Tracking, Human-Computer Interaction, Data Science, Information Retrieval, and Machine Learning.
+    I used eye-tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ADHD.
+    For my dissertation, I developed RAEMAP, a pipeline to analyze gaze measures in real-time.
   extra:
     - key: GPA
       value: 4.0
