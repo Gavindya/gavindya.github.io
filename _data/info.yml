@@ -1,15 +1,23 @@
 name: Gavindya Jayawardena
 about: >-
-  I am a Ph.D. candidate at Old Dominion University, with research interests in the fields of Eye-Tracking, Human-Computer Interaction, Data Science, Information Retrieval, and Machine Learning.
+  I am a Bullard Postdoctoral Fellow at The University of Texas at Austin, collaborating with Dr. Jacek Gwizdka at the Information eXperience (IX) Lab. 
+  My research leverages neuro-physiological evidence to deepen our understanding of human-information interaction. 
+  As part of my fellowship, I plan to explore the use of real-time cognitive load detection algorithms in applied contexts. 
+  By monitoring cognitive load in real-time, adaptive systems could dynamically personalize user experiences, adjusting task difficulty, providing additional resources, or introducing challenges tailored to users' cognitive states.
+  
+  I earned my Ph.D. in Computer Science from Old Dominion University in 2024, where I built a strong foundation in eye-tracking, pupillometry, and neuro-physiological signal analysis.
+  My dissertation introduced an advanced eye movement analysis pipeline to extract and analyze positional gaze and pupillometry measures in real-time. 
+  I also developed algorithms to generate advanced gaze metrics that capture cognitive load and ambient/focal viewing behaviors, providing deeper insights into cognition and attention allocation.
+  My research interests are in the fields of Eye-Tracking, Human-Computer Interaction, Data Science, Information Retrieval, and Machine Learning.
+  
   I received my BS (Computer Science) from University of Moratuwa, Sri Lanka.
   I'm open for faculty positions in Computer Science and Data Science, or industry positions in research and development.
-designation: Ph.D. Student
-affiliation: Old Dominion University
+designation: Bullard Postdoctoral Fellow
+affiliation: The University of Texas at Austin
 address:
-  - E&CS 2100, Computer Science
-  - Old Dominion University
-  - Norfolk, VA 23529
-email: gavindya@cs.odu.edu
+  - School of Information,
+  - 1616 Guadalupe St, Austin, Texas 78701
+email: gavindya@utexas.edu
 image: /assets/img/dp.jpeg
 gs: LdfjuHAAAAAJ
 cv: /assets/cv.pdf
