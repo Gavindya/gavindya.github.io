@@ -48,12 +48,15 @@
 - title: Automate Filtering of Eye Movements
   term: 
   description: |-
-    Designed a study to detect dynamic areas of interest using object detectors and filter eye movement data that falls within the polygonal boundaries of detected dynamic AOIs.
+    Designed a study to detect dynamic Areas of Interest (AOIs) using computer vision—specifically object detection and instance segmentation models (e.g., YOLO, Mask R-CNN) to identify moving objects in videos and map gaze data to them.
+    This method automates AOI detection in dynamic stimuli like video streams, eliminating the need for manual input and improving real-time gaze analysis.
   technologies:
     - Python
     - Pandas
     - OpenCV
     - Detectron
+    - YOLO
+    - Mask R-CNN
   
 - title: Analyze Performance of Adolescents with ADHD Using Eye-Tracking
   term: 
