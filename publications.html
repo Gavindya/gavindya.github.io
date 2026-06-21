@@ -1,0 +1,90 @@
+---
+layout: default
+title: Publications
+---
+<style>
+  .pub-group {
+    margin-bottom: 2rem;
+  }
+
+  .pub-group-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    border-bottom: 2px solid #0a5ab2;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .pub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pub-list li {
+    font-size: 0.92em;
+    letter-spacing: -0.3px;
+    color: #333;
+    line-height: 1.6;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid #e0e8f4;
+    margin-bottom: 0.6rem;
+    background: #f7f9fc;
+    border-radius: 0 4px 4px 0;
+    text-align: justify;
+  }
+
+  .pub-list li:hover {
+    border-left-color: #0a5ab2;
+  }
+
+  .pub-link {
+    font-size: 0.82em;
+    color: #0a5ab2;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 0.4rem;
+  }
+
+  .pub-link:hover {
+    text-decoration: underline;
+  }
+
+  .award-badge {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 700;
+    padding: 0.15em 0.5em;
+    border-radius: 0.25em;
+    background: #fff3cd;
+    color: #7a5700;
+    border: 1px solid #ffc107;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+</style>
+
+<p style="margin-bottom:1.5rem; font-size:0.93rem; color:#444;">
+  For the most up-to-date list of publications, visit my
+  <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}&sortby=pubdate" target="_blank" style="color:#0a5ab2; font-weight:600;">Google Scholar profile</a>.
+</p>
+
+{% for group in site.data.publications %}
+<div class="pub-group">
+  <div class="pub-group-title">{{ group.type }}</div>
+  <ul class="pub-list">
+    {% for pub in group.publications %}
+    <li>
+      {{ pub.value }}
+      {%- if pub.extra %} ({{ pub.extra }}){%- endif -%}
+      {%- if pub.award %}<span class="award-badge">🏆 {{ pub.award }}</span>{%- endif -%}
+      {%- if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}" class="pub-link" target="_blank">[Preprint]</a>{%- endif -%}
+      {%- if pub.doi %}<a href="{{ pub.doi }}" class="pub-link" target="_blank">[DOI]</a>{%- endif -%}
+      {%- if pub.url %}<a href="{{ pub.url }}" class="pub-link" target="_blank">[Link]</a>{%- endif -%}
+      {%- if pub.pdf %}<a href="{{ pub.pdf }}" class="pub-link" target="_blank">[PDF]</a>{%- endif -%}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

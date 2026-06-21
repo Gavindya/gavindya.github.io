@@ -1,0 +1,186 @@
+---
+layout: default
+title: Projects
+---
+<style>
+  .project-card {
+    border: 1px solid #e0e8f4;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(10,90,178,0.06);
+    transition: box-shadow 0.2s;
+  }
+
+  .project-card:hover {
+    box-shadow: 0 3px 12px rgba(10,90,178,0.13);
+  }
+
+  /* Banner image */
+  .project-banner {
+    width: 100%;
+    display: block;
+    max-height: 180px;
+    object-fit: cover;
+  }
+
+  /* Default gradient banner for projects without an image */
+  .project-banner-default {
+    height: 8px;
+    background: linear-gradient(90deg, #0a3060, #0a5ab2, #4da3ff);
+  }
+
+  .project-body {
+    padding: 1.1rem 1.3rem 1.2rem;
+  }
+
+  .project-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 0.25rem;
+  }
+
+  .project-term {
+    font-size: 0.83em;
+    color: #888;
+    margin-bottom: 0.7rem;
+  }
+
+  .project-description {
+    font-size: 0.92em;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 0.8rem;
+  }
+
+  .project-accomplishment {
+    font-size: 0.88em;
+    line-height: 1.6;
+    color: #1a4a8a;
+    background: #eef3fc;
+    border-left: 3px solid #0a5ab2;
+    border-radius: 0 0.3em 0.3em 0;
+    padding: 0.55em 0.85em;
+    margin-bottom: 0.8rem;
+    font-style: italic;
+  }
+
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .tech-tag {
+    font-family: monospace;
+    font-size: 0.78em;
+    background: #eef3fc;
+    color: #0a5ab2;
+    border: 1px solid #c5d8f5;
+    border-radius: 0.3em;
+    padding: 0.2em 0.55em;
+  }
+
+  /* Papers section */
+  .project-papers {
+    border-top: 1px solid #e8f0fa;
+    padding-top: 0.7rem;
+    margin-top: 0.5rem;
+  }
+
+  .project-papers-label {
+    font-size: 0.78em;
+    font-weight: 700;
+    color: #0a5ab2;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.45rem;
+  }
+
+  .paper-item {
+    font-size: 0.85em;
+    color: #333;
+    margin-bottom: 0.35rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+  }
+
+  .paper-item::before {
+    content: "▸";
+    color: #0a5ab2;
+    flex-shrink: 0;
+    font-size: 0.8em;
+  }
+
+  .paper-venue {
+    color: #888;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  .paper-link {
+    font-size: 0.82em;
+    color: #0a5ab2;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .paper-link:hover {
+    text-decoration: underline;
+  }
+</style>
+
+{% for project in site.data.projects %}
+<div class="project-card">
+  {% if project.image %}
+  <img class="project-banner" src="{{ project.image | relative_url }}" alt="{{ project.title }} banner">
+  {% else %}
+  <div class="project-banner-default"></div>
+  {% endif %}
+
+  <div class="project-body">
+    <div class="project-title">{{ project.title }}</div>
+    {% if project.term %}<div class="project-term">{{ project.term }}</div>{% endif %}
+
+    <div class="project-description">{{ project.description }}</div>
+
+    {% if project.accomplishment %}
+    <div class="project-accomplishment">{{ project.accomplishment }}</div>
+    {% endif %}
+
+    {% if project.technologies %}
+    <div class="tech-tags">
+      {% for t in project.technologies %}
+      <span class="tech-tag">{{ t }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if project.papers %}
+    <div class="project-papers">
+      <div class="project-papers-label">Related Publications</div>
+      {% for paper in project.papers %}
+      <div class="paper-item">
+        <span>
+          {% if paper.doi %}
+          <a href="{{ paper.doi }}" class="paper-link" target="_blank">{{ paper.title }}</a>
+          {% elsif paper.scholar %}
+          <a href="{{ paper.scholar }}" class="paper-link" target="_blank">{{ paper.title }}</a>
+          {% else %}
+          {{ paper.title }}
+          {% endif %}
+          {% if paper.venue %}&nbsp;<span class="paper-venue">— {{ paper.venue }}</span>{% endif %}
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}

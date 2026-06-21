@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ja-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#031b40"/>
+      <stop offset="100%" stop-color="#0a4a96"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="180" rx="8" fill="url(#ja-bg)"/>
+  <!-- Subtle grid -->
+  <g stroke="#4da3ff" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="30" x2="800" y2="30"/><line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="90" x2="800" y2="90"/><line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="100" y1="0" x2="100" y2="180"/><line x1="200" y1="0" x2="200" y2="180"/>
+    <line x1="300" y1="0" x2="300" y2="180"/><line x1="400" y1="0" x2="400" y2="180"/>
+    <line x1="500" y1="0" x2="500" y2="180"/><line x1="600" y1="0" x2="600" y2="180"/>
+    <line x1="700" y1="0" x2="700" y2="180"/>
+  </g>
+  <!-- Left panel: two eyes converging gaze -->
+  <!-- Eye 1 (top-left) -->
+  <ellipse cx="55" cy="60" rx="22" ry="10" fill="none" stroke="#4da3ff" stroke-width="1.5"/>
+  <circle cx="55" cy="60" r="5" fill="#4da3ff" opacity="0.9"/>
+  <circle cx="56" cy="59" r="2" fill="#031b40"/>
+  <!-- Eye 2 (bottom-left) -->
+  <ellipse cx="55" cy="120" rx="22" ry="10" fill="none" stroke="#4da3ff" stroke-width="1.5"/>
+  <circle cx="55" cy="120" r="5" fill="#4da3ff" opacity="0.9"/>
+  <circle cx="56" cy="119" r="2" fill="#031b40"/>
+  <!-- Gaze lines converging to focal point -->
+  <line x1="75" y1="60" x2="148" y2="90" stroke="#8dc4f8" stroke-width="1.2" opacity="0.7" stroke-dasharray="4,2"/>
+  <line x1="75" y1="120" x2="148" y2="90" stroke="#8dc4f8" stroke-width="1.2" opacity="0.7" stroke-dasharray="4,2"/>
+  <!-- Focal point star -->
+  <circle cx="152" cy="90" r="7" fill="#4da3ff" opacity="0.3"/>
+  <circle cx="152" cy="90" r="4" fill="#4da3ff" opacity="0.8"/>
+  <!-- Collaborative dots around focal -->
+  <circle cx="140" cy="75" r="2.5" fill="#8dc4f8" opacity="0.6"/>
+  <circle cx="165" cy="78" r="2" fill="#8dc4f8" opacity="0.5"/>
+  <circle cx="142" cy="105" r="2" fill="#8dc4f8" opacity="0.5"/>
+  <circle cx="163" cy="102" r="2.5" fill="#8dc4f8" opacity="0.6"/>
+
+  <!-- Middle: abstract attention flow visualization -->
+  <!-- Shared attention field waves -->
+  <ellipse cx="360" cy="90" rx="90" ry="40" fill="none" stroke="#4da3ff" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="360" cy="90" rx="65" ry="28" fill="none" stroke="#4da3ff" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="360" cy="90" rx="40" ry="18" fill="none" stroke="#4da3ff" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="360" cy="90" r="10" fill="#4da3ff" opacity="0.15"/>
+  <circle cx="360" cy="90" r="5" fill="#4da3ff" opacity="0.5"/>
+  <!-- Connection arcs from left -->
+  <path d="M170,90 Q260,55 350,90" fill="none" stroke="#8dc4f8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M170,90 Q260,125 350,90" fill="none" stroke="#8dc4f8" stroke-width="1.5" opacity="0.5"/>
+  <!-- Scatter dots -->
+  <circle cx="230" cy="72" r="3" fill="#4da3ff" opacity="0.4"/>
+  <circle cx="280" cy="65" r="2" fill="#4da3ff" opacity="0.3"/>
+  <circle cx="310" cy="78" r="2.5" fill="#4da3ff" opacity="0.4"/>
+  <circle cx="230" cy="108" r="3" fill="#4da3ff" opacity="0.4"/>
+  <circle cx="280" cy="115" r="2" fill="#4da3ff" opacity="0.3"/>
+  <circle cx="310" cy="102" r="2.5" fill="#4da3ff" opacity="0.4"/>
+  <!-- Right side extension -->
+  <path d="M370,90 Q450,60 520,90" fill="none" stroke="#8dc4f8" stroke-width="1" opacity="0.3"/>
+  <path d="M370,90 Q450,120 520,90" fill="none" stroke="#8dc4f8" stroke-width="1" opacity="0.3"/>
+  <circle cx="430" cy="74" r="2" fill="#4da3ff" opacity="0.3"/>
+  <circle cx="470" cy="68" r="2.5" fill="#4da3ff" opacity="0.3"/>
+  <circle cx="430" cy="106" r="2" fill="#4da3ff" opacity="0.3"/>
+  <circle cx="470" cy="112" r="2.5" fill="#4da3ff" opacity="0.3"/>
+
+  <!-- Right panel: text -->
+  <text x="620" y="82" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="white" text-anchor="middle">Joint Visual Attention</text>
+  <text x="620" y="104" font-family="Arial,sans-serif" font-size="12" fill="#8dc4f8" text-anchor="middle">Collaborative Learning · Harvard</text>
+</svg>

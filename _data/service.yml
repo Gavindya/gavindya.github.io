@@ -1,0 +1,44 @@
+awards:
+  - title: Best Doctoral Symposium Presentation Award
+    venue: ACM Symposium on Eye Tracking Research and Applications (ETRA)
+    year: 2022
+  - title: Best Poster Award
+    venue: ACM/IEEE Joint Conference on Digital Libraries (JCDL)
+    year: 2021
+  - title: Best Poster Award
+    venue: ACM/IEEE Joint Conference on Digital Libraries (JCDL)
+    year: 2020
+  - title: Best Paper Award
+    venue: International Multidisciplinary Engineering Research Conference (MERCon), IEEE
+    year: 2019
+  - title: CS Outstanding Researcher Award
+    venue: Old Dominion University, Department of Computer Science
+    year: "2019–2020"
+  - title: Dominion Graduate Scholar
+    venue: Old Dominion University
+    year: 2019
+  - title: Irwin B. Levinstein Scholarship
+    venue: Old Dominion University, Department of Computer Science
+    year: "2020–2021"
+  - title: "Dean's List"
+    venue: University of Moratuwa (Semesters 1, 6, 7, 8)
+    year: "2015–2018"
+
+service:
+  - role: Workshop Organizer
+    detail: "NeuroPhysiological Approaches for Interactive Information Retrieval (NeuroPhysIIR 2025)"
+    venue: ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2025)
+    year: 2025
+  - role: Program Committee / Reviewer
+    # Add venues below, e.g.: ACM CHI, ETRA, CHIIR, CSCW, IUI, JCDL, Frontiers in Computer Science
+    detail: "ACM CHI, ETRA, CHIIR"   # ← update with your actual reviewer venues
+    venue: Conferences & Journals
+    year: Ongoing
+
+mentoring:
+  - role: Undergraduate Research Mentor
+    detail: Supervised undergraduate students on eye-tracking and gaze analysis projects at Old Dominion University.
+    year: "2019–2024"
+  - role: Intern Mentor
+    detail: Mentored research interns on real-time pupillometry and eye movement analysis pipelines.
+    year: "2022–present"

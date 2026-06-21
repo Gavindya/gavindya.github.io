@@ -1,0 +1,55 @@
+- affiliation: The University of Texas at Austin, USA
+  logo: /assets/img/utaustin.png
+  designation: Bullard Postdoctoral Research Fellow, School of Information
+  term: Sep 2024 - Current
+  description: |-
+    As a Bullard Postdoctoral Research Fellow, I collaborate with Dr. Jacek Gwizdka at the Information eXperience (IX) Lab. My research focuses on computational eye-tracking methodology and its applications in human-information interaction and HCI.
+
+    * Developed a signal-processing pipeline for measuring cognitive load from pupil diameter fluctuations in real time, validated across N-back and Bloom's Taxonomy-structured information-search tasks (JEMR 2025, ETRA 2026, CHIIR 2026).
+    * Examined the effects of working memory capacity and search task complexity on cognitive load during information retrieval, connecting individual cognitive differences to information-seeking behavior (CHIIR 2026, CHIIR 2025).
+    * Conducting ongoing studies on human-AI interaction, including an LLM-based virtual study examining cognitive load and learning outcomes using Bloom's Taxonomy assessments.
+
+- affiliation: Old Dominion University, USA
+  logo: /assets/img/odu.png
+  designation: Graduate Assistant, Department of Computer Science
+  term: Jan 2019 - Aug 2024
+  description: |-
+    I completed my Ph.D. in Computer Science at Old Dominion University in 2024, advised by Dr. Sampath Jayarathna. My dissertation introduced a real-time advanced eye movement analysis pipeline for extracting positional gaze and pupillometry measures to quantify cognitive load and visual attention.
+
+    * Developed the Real-time Index of Pupillary Activity (RIPA), a computationally efficient system that tracked cognitive load through pupil diameter fluctuations using advanced signal processing techniques.
+    * Designed and implemented algorithms to classify ambient and focal attentional states from gaze data in real time, enabling dynamic monitoring of user engagement during visual search tasks.
+    * Built a gaze analytics dashboard for distributed eye tracking, supporting multi-user data collection and visualization in remote settings (IRI 2023, IRI 2024).
+    * Conducted studies on ADHD prediction using eye gaze metrics and working memory capacity tasks, achieving over 91% classification accuracy with graph convolution networks.
+    * Served as Course Instructor for CS115: Introduction to Python (Summer 2024).
+    * Served as Teaching Assistant for CS441/541 (App Development for Smart Devices), CS334 (Computer Architecture), CS450T (Database), and CS250 (Problem Solving & Programming II).
+  
+- affiliation: Los Alamos National Laboratory
+  logo: /assets/img/lanl.png
+  designation: Summer Graduate Research Intern
+  term: Jun 2021 - Aug 2021, Jun 2022 - Aug 2022
+  description: |-
+    Completed two summer research internships at LANL working on real-time extraction and processing of scholarly PDF documents.
+
+    * Built a real-time pipeline to extract structured metadata — including title, abstract, keywords, authors, and affiliations — from scientific PDF documents using natural language processing techniques (Summer 2021).
+    * Extended the pipeline to support full-text extraction and developed PDFServer, a web application for reviewing, correcting, and managing extracted document metadata at scale (Summer 2022).
+    * Contributed to improving access to scientific literature by enabling automated ingestion of document metadata into digital library systems.
+
+- affiliation: University of Moratuwa, Sri Lanka
+  logo: /assets/img/uom.png
+  designation: Teaching Assistant, Department of Computer Science and Engineering
+  term: Jan 2018 - Jun 2018
+  description: |-
+    Served as a Teaching Assistant for CS2963: Presentation Skills in the Department of Computer Science and Engineering.
+
+    * Prepared course materials and facilitated sessions on technical communication, academic writing, and professional presentation skills for undergraduate students.
+    * Conducted lectures, provided individual feedback on presentations, and graded student assignments.
+
+- affiliation: UStocktrade (Pvt) Ltd, Sri Lanka
+  logo: /assets/img/ustck.png
+  designation: Software Engineering Intern
+  term: Jun 2017 - Dec 2017
+  description: |-
+    Completed a software engineering internship at UStocktrade, a fintech startup in Sri Lanka.
+
+    * Designed and developed a tool to automate API documentation generation by parsing code changes, significantly reducing manual documentation effort for the engineering team.
+    * Integrated the documentation tool into the existing development workflow, improving consistency and maintainability of API references across the codebase.

@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="adhd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#031b40"/>
+      <stop offset="100%" stop-color="#0a4a96"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="180" rx="8" fill="url(#adhd-bg)"/>
+  <g stroke="#4da3ff" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="36" x2="800" y2="36"/><line x1="0" y1="72" x2="800" y2="72"/>
+    <line x1="0" y1="108" x2="800" y2="108"/><line x1="0" y1="144" x2="800" y2="144"/>
+    <line x1="160" y1="0" x2="160" y2="180"/><line x1="320" y1="0" x2="320" y2="180"/>
+    <line x1="480" y1="0" x2="480" y2="180"/><line x1="640" y1="0" x2="640" y2="180"/>
+  </g>
+  <!-- Left panel: eye gaze input node -->
+  <ellipse cx="80" cy="90" rx="28" ry="14" fill="none" stroke="#4da3ff" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="80" cy="90" r="7" fill="#4da3ff" opacity="0.6"/>
+  <circle cx="82" cy="88" r="2.5" fill="white" opacity="0.7"/>
+  <!-- Input label -->
+  <text x="80" y="118" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle" opacity="0.8">Gaze Input</text>
+  <!-- Feature nodes -->
+  <circle cx="80" cy="55" r="5" fill="#4da3ff" opacity="0.4" stroke="#4da3ff" stroke-width="1"/>
+  <circle cx="80" cy="125" r="5" fill="#4da3ff" opacity="0.4" stroke="#4da3ff" stroke-width="1"/>
+  <line x1="80" y1="76" x2="80" y2="60" stroke="#8dc4f8" stroke-width="0.8" opacity="0.4"/>
+  <line x1="80" y1="104" x2="80" y2="120" stroke="#8dc4f8" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Middle: decision tree -->
+  <defs>
+    <marker id="adhd-arr" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#4da3ff" opacity="0.7"/>
+    </marker>
+  </defs>
+  <!-- Root node -->
+  <rect x="230" y="72" width="70" height="26" rx="4" fill="#4da3ff" opacity="0.2" stroke="#4da3ff" stroke-width="1.2"/>
+  <text x="265" y="89" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle">Fixation dur.</text>
+  <!-- Lines from input to root -->
+  <line x1="108" y1="90" x2="228" y2="85" stroke="#4da3ff" stroke-width="1.2" opacity="0.6" marker-end="url(#adhd-arr)"/>
+  <line x1="85" y1="55" x2="228" y2="78" stroke="#8dc4f8" stroke-width="0.8" opacity="0.4" marker-end="url(#adhd-arr)"/>
+  <line x1="85" y1="125" x2="228" y2="95" stroke="#8dc4f8" stroke-width="0.8" opacity="0.4" marker-end="url(#adhd-arr)"/>
+  <!-- Left branch -->
+  <line x1="245" y1="98" x2="195" y2="128" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <rect x="168" y="122" width="60" height="22" rx="4" fill="#4da3ff" opacity="0.15" stroke="#4da3ff" stroke-width="1"/>
+  <text x="198" y="137" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle">Saccade amp</text>
+  <!-- Right branch -->
+  <line x1="285" y1="98" x2="335" y2="128" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <rect x="308" y="122" width="60" height="22" rx="4" fill="#4da3ff" opacity="0.15" stroke="#4da3ff" stroke-width="1"/>
+  <text x="338" y="137" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle">Blink rate</text>
+  <!-- Left-left leaf -->
+  <line x1="185" y1="144" x2="165" y2="162" stroke="#4da3ff" stroke-width="0.8" opacity="0.5"/>
+  <rect x="148" y="158" width="38" height="18" rx="3" fill="#4da3ff" opacity="0.25" stroke="#4da3ff" stroke-width="1"/>
+  <text x="167" y="170" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">ADHD</text>
+  <!-- Left-right leaf -->
+  <line x1="210" y1="144" x2="222" y2="162" stroke="#4da3ff" stroke-width="0.8" opacity="0.5"/>
+  <rect x="204" y="158" width="38" height="18" rx="3" fill="#8dc4f8" opacity="0.15" stroke="#8dc4f8" stroke-width="1"/>
+  <text x="223" y="170" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ctrl</text>
+  <!-- Right-left leaf -->
+  <line x1="325" y1="144" x2="308" y2="162" stroke="#4da3ff" stroke-width="0.8" opacity="0.5"/>
+  <rect x="290" y="158" width="38" height="18" rx="3" fill="#8dc4f8" opacity="0.15" stroke="#8dc4f8" stroke-width="1"/>
+  <text x="309" y="170" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ctrl</text>
+  <!-- Right-right leaf -->
+  <line x1="350" y1="144" x2="365" y2="162" stroke="#4da3ff" stroke-width="0.8" opacity="0.5"/>
+  <rect x="347" y="158" width="38" height="18" rx="3" fill="#4da3ff" opacity="0.25" stroke="#4da3ff" stroke-width="1"/>
+  <text x="366" y="170" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">ADHD</text>
+  <!-- Second level right node -->
+  <rect x="380" y="55" width="70" height="26" rx="4" fill="#4da3ff" opacity="0.12" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <text x="415" y="72" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle" opacity="0.7">Pupil diam.</text>
+  <line x1="300" y1="72" x2="378" y2="65" stroke="#8dc4f8" stroke-width="0.8" opacity="0.3" stroke-dasharray="3,2"/>
+  <!-- Accuracy badge -->
+  <rect x="435" y="108" width="80" height="30" rx="5" fill="#4da3ff" opacity="0.2" stroke="#4da3ff" stroke-width="1.2"/>
+  <text x="475" y="121" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle">Accuracy</text>
+  <text x="475" y="133" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">91%</text>
+
+  <!-- Right panel -->
+  <text x="635" y="78" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="white" text-anchor="middle">ADHD Prediction</text>
+  <text x="635" y="100" font-family="Arial,sans-serif" font-size="12" fill="#8dc4f8" text-anchor="middle">Eye Movements · ML · 91% Accuracy</text>
+</svg>

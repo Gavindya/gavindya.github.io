@@ -1,0 +1,74 @@
+name: Gavindya Jayawardena
+about: >-
+  I am a postdoctoral researcher at the School of Information, The University of Texas at Austin, working with Dr. Jacek Gwizdka.
+  **My research asks a simple question: what is happening in the mind while someone searches for information, reads a document, or decides whether to trust what they see?**
+  I use eye tracking and pupillometry to answer it in real time.
+
+
+  The eyes are remarkably honest. Where we look, how long we linger, and how our pupils respond to mental demand all carry traces of cognitive state that people cannot easily mask or report.
+  I develop algorithms that read those traces live, while the interaction is still happening.
+  My core contribution is **gaze-based methods that track cognitive load** as it rises and falls, capturing the difference between a task that fits comfortably within someone&#39;s mental capacity and one that pushes them to their limits. <span class="pub-tip">[1]<span class="pub-tooltip">Jayawardena, Jayawardana, and Gwizdka. &quot;Measuring Mental Effort in Real Time Using Pupillometry.&quot; Journal of Eye Movement Research 18(6), 2025.</span></span>
+
+
+  I apply these methods to questions that arise when people find and evaluate information and interact with AI.
+  I have studied how prior beliefs distort the mental effort people invest in assessing document credibility, <span class="pub-tip">[2]<span class="pub-tooltip">Shi, Jayawardena, and Gwizdka. &quot;Pupillometric Analysis of Cognitive Load in Relation to Relevance and Confirmation Bias.&quot; CHIIR 2025.</span></span>
+  how individual differences in working memory shape the cognitive cost of search, <span class="pub-tip">[3]<span class="pub-tooltip">Jayawardena, Shi, and Gwizdka. &quot;Effects of Working Memory Capacity and Search Task Complexity on Cognitive Load.&quot; CHIIR 2026.</span></span>
+  and how visual attention shifts between broad scanning and deep reading as people move through a task. <span class="pub-tip">[4]<span class="pub-tooltip">Jayawardena et al. &quot;A Real-Time Approach to Capture Ambient and Focal Attention in Visual Search.&quot; ETRA 2025.</span></span>
+  More recently, I have been examining what happens cognitively when people encounter AI-generated misinformation <span class="pub-tip">[5]<span class="pub-tooltip">Abeysinghe, Jayawardena, Kasneci, and Jayarathna. &quot;Susceptibility to High-Fidelity Misinformation: An Eye-Tracking Analysis.&quot; ETRA 2026.</span></span> and when they learn new concepts using AI.
+  Gaze reveals a great deal about how the mind is engaging that people themselves are unaware of.
+
+
+  My earlier work showed that eye movement signals can predict an ADHD diagnosis with high accuracy, <span class="pub-tip">[6]<span class="pub-tooltip">Jayawardena, Michalek, Duchowski, and Jayarathna. &quot;Predicting ADHD Using Eye Gaze Metrics Indexing Working Memory Capacity.&quot; Computational Models for Biomedical Reasoning, 2019.</span></span>
+  and that gaze patterns differ meaningfully between neurotypical and ADHD individuals across tasks like speech-in-noise <span class="pub-tip">[7]<span class="pub-tooltip">Jayawardena, Michalek, Duchowski, and Jayarathna. &quot;Pilot Study of Audiovisual Speech-In-Noise (SIN) Performance of Young Adults with ADHD.&quot; ETRA 2020.</span></span> and working memory.
+  The pattern was clear: physiological gaze data carries information about how a mind works that no questionnaire or self-report can surface.
+  That insight shapes everything I build.
+
+
+  My work has been recognized with the **Lee Entsminger Outstanding Dissertation Award (2024-2025)**, the **Best Doctoral Symposium Presentation Award** at ETRA 2022, **Best Paper and Best Poster awards** at multiple venues, and graduate scholarships including the Dominion Graduate Scholar award and the Irwin B. Levinstein Scholarship.
+
+
+  I hold a **Ph.D. in Computer Science** from Old Dominion University (2024) and a **B.Sc. in Computer Science and Engineering** (First Class Honors) from the University of Moratuwa, Sri Lanka.
+designation: Bullard Postdoctoral Fellow
+affiliation: School of Information
+address:
+  - The University of Texas at Austin
+email: gavindya@utexas.edu
+image: /assets/img/headshot_otw.png
+gs: LdfjuHAAAAAJ
+cv: /assets/cv.pdf
+research_interests:
+  - Real-Time Cognitive Load
+  - Eye Tracking & Gaze Analysis
+  - Physiological Signal Processing
+  - Human-Information Interaction
+  - Human-AI Interaction
+  - Misinformation
+  - Neurodiversity
+  - Adaptive & Intelligent Interfaces
+
+featured_publications:
+  - title: "Visual Attention and Cognitive Load in Text Relevance Assessment"
+    authors: "Gavindya Jayawardena, Di Zhang, and Jacek Gwizdka"
+    venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA 2026)"
+    type: Conference
+    doi: "https://doi.org/10.1145/3797246.3805481"
+  - title: "Susceptibility to High-Fidelity Misinformation: An Eye-Tracking Analysis"
+    authors: "Yasasi Abeysinghe, Gavindya Jayawardena, Enkelejda Kasneci, and Sampath Jayarathna"
+    venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA 2026)"
+    type: Conference
+    doi: "https://doi.org/10.1145/3797246.3806224"
+  - title: "Phase-Dependent Scanpath Dynamics in Map-Based Tasks"
+    authors: "Di Zhang, Gavindya Jayawardena, and Jacek Gwizdka"
+    venue: "ACM Symposium on Eye Tracking Research and Applications (ETRA 2026)"
+    type: Conference
+    doi: "https://doi.org/10.1145/3797246.3803052"
+  - title: "Effects of Working Memory Capacity and Search Task Complexity on Cognitive Load"
+    authors: "Gavindya Jayawardena, Li Shi, and Jacek Gwizdka"
+    venue: "ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2026)"
+    type: Conference
+    doi: "https://doi.org/10.1145/3786304.3787871"
+
+social:
+  twitter_username: gavindya2
+  github_username: Gavindya
+  linkedin_username: gavindya-jayawardena

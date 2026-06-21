@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aoi-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#031b40"/>
+      <stop offset="100%" stop-color="#0a4a96"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="180" rx="8" fill="url(#aoi-bg)"/>
+  <g stroke="#4da3ff" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="36" x2="800" y2="36"/><line x1="0" y1="72" x2="800" y2="72"/>
+    <line x1="0" y1="108" x2="800" y2="108"/><line x1="0" y1="144" x2="800" y2="144"/>
+    <line x1="160" y1="0" x2="160" y2="180"/><line x1="320" y1="0" x2="320" y2="180"/>
+    <line x1="480" y1="0" x2="480" y2="180"/><line x1="640" y1="0" x2="640" y2="180"/>
+  </g>
+  <!-- Left panel: video frame with bounding box -->
+  <rect x="20" y="25" width="130" height="130" rx="4" fill="none" stroke="#4da3ff" stroke-width="1.5" opacity="0.6"/>
+  <!-- Playback indicator -->
+  <circle cx="85" cy="18" r="4" fill="#4da3ff" opacity="0.5"/>
+  <line x1="20" y1="18" x2="78" y2="18" stroke="#4da3ff" stroke-width="1" opacity="0.3"/>
+  <line x1="92" y1="18" x2="150" y2="18" stroke="#4da3ff" stroke-width="1" opacity="0.3"/>
+  <!-- Person silhouette region (AOI bounding box) -->
+  <rect x="45" y="50" width="55" height="75" rx="2" fill="none" stroke="#4da3ff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- YOLO label -->
+  <rect x="45" y="43" width="35" height="12" rx="2" fill="#4da3ff" opacity="0.7"/>
+  <text x="62" y="52" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">YOLO</text>
+  <!-- Simple figure inside box -->
+  <circle cx="72" cy="67" r="7" fill="none" stroke="#8dc4f8" stroke-width="1.2" opacity="0.6"/>
+  <line x1="72" y1="74" x2="72" y2="95" stroke="#8dc4f8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="72" y1="80" x2="60" y2="88" stroke="#8dc4f8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="72" y1="80" x2="84" y2="88" stroke="#8dc4f8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="72" y1="95" x2="64" y2="110" stroke="#8dc4f8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="72" y1="95" x2="80" y2="110" stroke="#8dc4f8" stroke-width="1.2" opacity="0.5"/>
+  <!-- Gaze dot -->
+  <circle cx="75" cy="68" r="5" fill="#4da3ff" opacity="0.4"/>
+  <circle cx="75" cy="68" r="2.5" fill="#4da3ff" opacity="0.9"/>
+  <!-- Second bounding box (background object) -->
+  <rect x="100" y="80" width="38" height="40" rx="2" fill="none" stroke="#8dc4f8" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <rect x="100" y="73" width="32" height="11" rx="2" fill="#8dc4f8" opacity="0.3"/>
+  <text x="116" y="81" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" opacity="0.8">Mask R-CNN</text>
+
+  <!-- Middle: gaze mapped to AOI visualization -->
+  <!-- Mapping arrow -->
+  <defs>
+    <marker id="aoi-arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4da3ff" opacity="0.8"/>
+    </marker>
+  </defs>
+  <line x1="155" y1="90" x2="195" y2="90" stroke="#4da3ff" stroke-width="1.5" opacity="0.6" marker-end="url(#aoi-arr)"/>
+  <!-- Gaze scanpath in middle -->
+  <polyline points="210,70 225,85 240,65 255,95 270,75 285,100 300,80 315,90 330,72 345,88 360,78 375,92 390,82 405,88 420,76 435,90" fill="none" stroke="#4da3ff" stroke-width="1.5" opacity="0.7"/>
+  <!-- Fixation circles along scanpath -->
+  <circle cx="225" cy="85" r="4" fill="none" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <circle cx="255" cy="95" r="5" fill="none" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <circle cx="300" cy="80" r="4" fill="none" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <circle cx="345" cy="88" r="6" fill="none" stroke="#4da3ff" stroke-width="1.2" opacity="0.7"/>
+  <circle cx="390" cy="82" r="4" fill="none" stroke="#4da3ff" stroke-width="1" opacity="0.6"/>
+  <!-- AOI region highlighted -->
+  <rect x="320" y="55" width="120" height="70" rx="4" fill="#4da3ff" opacity="0.07" stroke="#4da3ff" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="380" y="148" font-family="Arial,sans-serif" font-size="9" fill="#8dc4f8" text-anchor="middle" opacity="0.7">AOI Region</text>
+  <!-- Frame timeline -->
+  <rect x="200" y="140" width="250" height="16" rx="3" fill="none" stroke="#4da3ff" stroke-width="0.8" opacity="0.4"/>
+  <rect x="200" y="140" width="90" height="16" rx="3" fill="#4da3ff" opacity="0.15"/>
+  <text x="325" y="151" font-family="Arial,sans-serif" font-size="8" fill="#8dc4f8" text-anchor="middle" opacity="0.6">frame timeline</text>
+
+  <!-- Right panel -->
+  <text x="630" y="78" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="white" text-anchor="middle">Dynamic AOI Filtering</text>
+  <text x="630" y="100" font-family="Arial,sans-serif" font-size="12" fill="#8dc4f8" text-anchor="middle">Eye Tracking · YOLO · Mask R-CNN</text>
+</svg>

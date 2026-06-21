@@ -1,0 +1,340 @@
+- title: "Real-Time Cognitive Load Detection via Pupillometry"
+  term: 2022 – present
+  image: /assets/img/projects/cognitive-load-banner.svg
+  description: |-
+    Developed real-time algorithms to measure cognitive load using pupil diameter oscillations.
+    Introduced RIPA (Real-time Index of Pupillary Activity) and its enhanced successor RIPA2,
+    validated across structured N-back memory tasks and naturalistic information search scenarios involving fact-checking.
+    RIPA2 incorporates refined Savitzky–Golay filter parameters to better isolate pupil fluctuations within
+    biologically relevant frequency bands linked to mental effort, demonstrating improved sensitivity
+    over offline pupillary activity indices.
+  accomplishment: "Demonstrated improved sensitivity over the established offline LHIPA benchmark, enabling cognitive monitoring during naturalistic tasks without post-hoc data collection."
+  technologies:
+    - Python
+    - Pupillometry
+    - Savitzky-Golay Filter
+    - NumPy
+    - Pandas
+  papers:
+    - title: "Measuring Mental Effort in Real Time Using Pupillometry"
+      venue: "Journal of Eye Movement Research, 18(6), 2025"
+      doi: "https://doi.org/10.3390/jemr18060070"
+    - title: "Toward a Real-Time Index of Pupillary Activity as an Indicator of Cognitive Load"
+      venue: "KES 2022 – Procedia Computer Science"
+    - title: "Effects of Working Memory Capacity and Search Task Complexity on Cognitive Load"
+      venue: "CHIIR 2026"
+
+- title: "Eye Movement Analysis in Map-Based Visual Search"
+  term: 2025 – present
+  image: /assets/img/projects/maps-banner.svg
+  description: |-
+    Investigates how map type (cartographic vs. satellite) and task type (location finding vs. route planning)
+    influence scanpath complexity and cognitive load. Developed a real-time method to compute the ambient/focal
+    coefficient K — a validated gaze measure of attention mode — enabling adaptive interfaces without
+    post-hoc analysis. Demonstrated that scanpath complexity varies across task–map combinations,
+    reflecting strategic shifts in visual search behavior.
+  accomplishment: "Enabled adaptive interface support without post-hoc analysis, showing that task–map pairing meaningfully shapes gaze strategy and should be a design variable in spatial information systems."
+  technologies:
+    - Python
+    - Eye Tracking
+    - Scanpath Analysis
+    - NumPy
+    - Pandas
+  papers:
+    - title: "Phase-Dependent Scanpath Dynamics in Map-Based Tasks"
+      venue: "ETRA 2026"
+      doi: "https://doi.org/10.1145/3797246.3803052"
+    - title: "A Real-Time Approach to Capture Ambient and Focal Attention in Visual Search"
+      venue: "ETRA 2025"
+      doi: "https://doi.org/10.1145/3715669.3723111"
+
+- title: "Cognitive Load, Bias & Credibility in Text Relevance Assessment"
+  term: 2024 – present
+  image: /assets/img/projects/text-relevance-banner.svg
+  description: |-
+    Examines how confirmation bias, document relevance, and information credibility influence
+    cognitive load during reading and relevance assessment. Applies the Low/High Index of Pupillary
+    Activity (LHIPA) via eye-tracking to capture mental effort associated with processing relevant vs.
+    irrelevant content and truthful vs. misleading information. Findings reveal systematic differences
+    in cognitive load tied to both relevance and bias, with implications for adaptive information retrieval.
+  accomplishment: "Showed that both document relevance and prior belief (confirmation bias) independently modulate mental effort, providing physiological grounding for bias-aware information retrieval design."
+  technologies:
+    - Python
+    - Eye Tracking
+    - Pupillometry
+    - LHIPA
+    - R
+  papers:
+    - title: "Pupillometric Analysis of Cognitive Load in Relation to Relevance and Confirmation Bias"
+      venue: "CHIIR 2025"
+      doi: "https://doi.org/10.1145/3698204.3716458"
+    - title: "Susceptibility to High-Fidelity Misinformation: An Eye-Tracking Analysis"
+      scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NN-qWcMAAAAJ&sortby=pubdate&citation_for_view=NN-qWcMAAAAJ:qxL8FJ1GzNcC"
+    - title: "Visual Attention and Cognitive Load in Text Relevance Assessment"
+      scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NN-qWcMAAAAJ&sortby=pubdate&citation_for_view=NN-qWcMAAAAJ:aqlVkmm33-oC"
+
+- title: RAEMAP
+  term: 2019 - present
+  image: /assets/img/projects/raemap-banner.svg
+  description: |-
+    Real-Time Advanced Eye Movements Analysis Pipeline (RAEMAP) is an advanced pipeline to analyze traditional positional gaze measurements as well as advanced eye gaze measurements.
+    The implementation of RAEMAP includes real-time analysis of fixations, saccades, gaze transition entropy, ambient/focal viewing coefficient, and real-time measure of cognitive load.
+    RAEMAP provides visualizations of generated advanced gaze measures in real-time.
+  accomplishment: "Unified previously siloed gaze metrics into a single streaming platform, making real-time cognitive monitoring accessible to researchers without signal-processing expertise."
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - HvPlot
+    - Web-sockets
+
+- title: Joint Visual Attention and Joint Mental Effort in Collaborative Learning
+  term: 2023
+  description: |-
+    Explored the relationship between joint visual attention and joint mental effort in collaborative learning environments by conducting a data analysis of eye tracking datasets from three studies in collaboration with Dr. Bertrand Schneider from Harvard University, Cambridge, MA.
+    Analyzed joint visual attention and joint mental effort, and how they support collaboration in terms of collaboration quality and learning gains from previous experiments.
+  accomplishment: "Found that joint visual attention and shared mental effort are distinct predictors of collaboration quality, suggesting eye-tracking can serve as a real-time proxy for productive collaborative engagement."
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+
+- title: Detect Cognitive Load in Real-Time using Pupillary Activity
+  term: 2022
+  description: |-
+    Re-designed and implemented the Low/High Index of Pupillary Activity (LHIPA), an eye-tracked measure of pupil diameter oscillation to function in real-time, in collaboration with Dr. Andrew Duchowski from Clemson University.
+    The novel Real-time IPA (RIPA) is shown to discriminate cognitive load in re-streamed eye-tracking data from previous experiments.
+  accomplishment: "Proved that real-time cognitive load discrimination is achievable from a live pupil stream, bridging the gap between offline academic measures and deployable adaptive systems."
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - Savitzky-Golay Filter
+
+- title: GROBID based Scholarly PDF Header and Full Text Extractor
+  term: 2021 & 2022
+  description: |-
+    Designed and developed a software to extract header information such as title, abstract, keywords, authors, affiliations, and full text from scholarly PDF documents in real-time and process extracted data.
+    Goal was to populate LANL’s Review & Approval System, RASSTI’s forms with extracted data.
+  accomplishment: "Reduced manual data-entry burden for LANL reviewers by automating the ingestion of scholarly document metadata directly into RASSTI’s review workflow."
+  technologies:
+    - Python
+    - GROBID
+    - BeautifulSoup
+    - Flask
+    - Sphinx
+    - HTML
+
+- title: Automate Filtering of Eye Movements
+  term:
+  description: |-
+    Designed a study to detect dynamic Areas of Interest (AOIs) using computer vision—specifically object detection and instance segmentation models (e.g., YOLO, Mask R-CNN) to identify moving objects in videos and map gaze data to them.
+    This method automates AOI detection in dynamic stimuli like video streams, eliminating the need for manual input and improving real-time gaze analysis.
+  accomplishment: "Eliminated the manual annotation bottleneck that had restricted eye-tracking analysis to static stimuli, opening the method to video-based and naturalistic gaze research."
+  technologies:
+    - Python
+    - Pandas
+    - OpenCV
+    - Detectron
+    - YOLO
+    - Mask R-CNN
+  
+- title: Analyze Performance of Adolescents with ADHD Using Eye-Tracking
+  term:
+  description: |-
+    Conducted a pilot study to assess audiovisual Speech-In-Noise (SIN) performance of adolescents with ADHD compared to age-matched controls using eye-tracking measures.
+    Found that some signal-to-noise ratios shifts noise to a point where processing of speech becomes less automatic and relies more on increased cognitive load.
+  accomplishment: "Established that gaze-based cognitive load measures can detect speech-processing difficulty in ADHD populations, laying groundwork for non-invasive attentional screening tools."
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - Tobii Studio analysis software
+    
+- title: Predicting ADHD using Eye Movements
+  term:
+  description: |-
+    Developed a feasibility study to confirm eye movement data as a predictor of a diagnosis of ADHD in adults.
+    Tree-based classifiers performed with 91% accuracy.
+  accomplishment: "Established eye movement data as a viable, non-invasive input for ADHD screening, with accuracy competitive with clinical assessment tools."
+  technologies:
+    - Python
+    - Pandas
+    - NumPy
+    - WEKA
+    - Tobii Studio analysis software
+
+- title: Focused Crawler for Academic Web
+  term:
+  description: |-
+    Designed a study to determine the next set of crawl URLs using URL update frequencies from crawl history.
+  accomplishment: "Showed that historical crawl frequency is a reliable signal for prioritizing re-crawl targets, reducing wasted fetch requests on stale or low-churn pages."
+  technologies:
+    - Internet Archive
+    - Python
+    - NumPy
+    - Pandas
+
+
+- title: Table of Contents (TOC) for Blog Posts
+  term:
+  description: |-
+    Developed a browser extension, utilizing article segmentation and extractive summarization to generate Wikipedia-style TOC for blog posts to serve both as an article summary, and as a shortcut to navigate to sections of interest.
+  accomplishment: "Demonstrated that extractive NLP can meaningfully reduce reading overhead for long-form web content, with the extension working across arbitrary blog platforms without server-side changes."
+  technologies:
+    - Python
+    - HTML
+    - InferSent
+    - NLTK Tokenizer
+    - LexRank
+ 
+- title: A Blockchain-Based System for Department of Motor Vehicles (DMV) of Virginia
+  term:
+  description: |-
+    Constructed a blockchain-based system for DMV where, drivers, vehicle owners, police departments, and car dealers can all benefit from the DMV's online services, without a customer service representative.
+  accomplishment: "Eliminated the need for a central authority by encoding trust and access rules directly in smart contracts, making cross-stakeholder DMV transactions tamper-resistant and auditable."
+  technologies:
+    - Ganache
+    - Metamask
+    - Web3
+    - Truffle
+    - HTML
+    - CSS
+    - Vue.js
+
+- title: March Madness Prediction - NCAA® tournaments in 2017, 2018, 2019
+  term:
+  description: |-
+    Created ML models to predict which team would win at each possible game in the next season, as a probability. We trained and evaluated each model using the four feature-sets, and evaluated their performances in terms of classification accuracy, and log loss.
+  accomplishment: "Identified which feature sets carry the most predictive signal for tournament outcomes, providing a reusable evaluation framework for sports probability modeling."
+  technologies:
+    - Scikit-Learn
+    - Logistic Regression
+    - K-Nearest Neighbors (k=3)
+    - Random Forest
+    - FCNN
+
+- title: Specialty Search Engine (SSE) to Explore Sri Lanka (SL)
+  term:
+  description: |-
+    Designed and developed a SSE to explore SL across multiple websites by crawling a set of seed URLs.
+    This SSE provides a collection of results about certain attractions in SL, by ranking the results, and avoiding promotional content such as tours & hotels.
+  accomplishment: "Showed that domain-focused crawling with promotional-content filtering substantially improves result quality over general-purpose search for niche geographic queries."
+  technologies:
+    - Elasticsearch
+    - Kibana
+    - Scrapy
+    - Python
+    - HTML
+    - CSS
+    - JS
+    - JQuery
+
+- title: MSstack
+  term: 2018
+  description: |-
+    A full-stack, event-driven, microservices framework for Java, with business modeling.
+    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
+    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
+    It also facilitates generating boilerplate code from Business Process Models.
+  accomplishment: "Reduced the expertise barrier for microservices adoption by abstracting infrastructure concerns behind a business-logic interface, letting developers model services without knowledge of Kafka internals or partition management."
+  technologies:
+    - Java
+    - Netty
+    - Kafka
+    - Zookeeper
+    - Curator
+    - Git
+
+- title: DengAI
+  term: 2017
+  description: |-
+    A competition hosted by DrivenData, to model the spread of Dengue using weather and geographical information.
+    Built a machine learning model that ranked #1 in 2017.
+  accomplishment: "Achieved #1 in the 2017 DrivenData competition, demonstrating that weather and geographic features alone are sufficient to outperform more complex epidemiological models on this dataset."
+  technologies:
+    - Python
+    - Scikit-Learn
+    - Pandas
+    - WEKA
+
+- title: Automate API Code Generation
+  description: |-
+    Developed a program to automatically generate and update API documentation using the code base.
+  accomplishment: "Eliminated documentation drift by tying API docs to the source code itself, ensuring that docs stayed accurate without requiring a separate authoring workflow."
+  technologies:
+    - Java
+    - OpenAPI/Swagger
+    - Maven
+    - Mustache templating
+    - HTML
+    - CSS
+    - JS
+
+- title: Information System for Goldline Tours and Tyres Centre
+  description: |-
+    Designed and developed an Information System for a company. Mainly focused on Inventory Management, Employee Management and day to day transactions.
+  accomplishment: "Replaced paper-based record keeping with a unified digital system, reducing operational errors and giving management a real-time view of inventory and transactions."
+  technologies:
+    - C#
+    - MySQL
+
+- title: AutoMate
+  description: |-
+    Designed and developed a mobile application to report accidents to the insurance company by the owner of the vehicle himself. The app supports sending pictures of the damage along with the insurance policy details.
+  accomplishment: "Removed the need for intermediaries in accident claims by putting photo capture, policy lookup, and submission in the driver's hands at the scene."
+  technologies:
+    - AngularJS
+    - Ionic framework
+    - HTML
+    - PHP
+    - Laravel
+
+- title: Congress Management Application
+  description: |-
+    Developed a web application to manage parallel activities of a congress. Mainly focused on providing feedback to the speaker and asking questions from the speakers.
+  accomplishment: "Enabled audience participation across concurrent sessions without scheduling conflicts, replacing pass-the-microphone Q&A with asynchronous digital interaction that persisted beyond the session."
+  technologies:
+    - Node.js
+    - AngularJS
+    - HTML
+    - CSS
+
+- title: Rapidoid Plugin for Swagger Codegen
+  description: |-
+    Developed a program to automatically generate the Rapidoid framework’s syntax adhered server-side code for Swagger codegen.
+  accomplishment: "Extended the Swagger Codegen ecosystem to support a framework with no prior generator, saving Rapidoid users from writing boilerplate server stubs by hand for every API spec."
+  technologies:
+    - Java
+    - Rapidoid
+    - OpenAPI/Swagger
+    - Mustache templating
+
+- title: MedFriend
+  term: 2017
+  description: |-
+    Designed a Web and Mobile application to manage Medical Records of patients which allows authorized Doctors to view and edit.
+  accomplishment: "Enabled continuity of care by giving authorized physicians secure access to patient records from any device, removing dependency on a single workstation or paper chart."
+  technologies:
+    - PHP
+    - Laravel
+    - HTML
+    - CSS
+    - jQuery
+    - Angular2
+    - Ionic2
+    - Typescript
+    - MySQL
+
+- title: MusicSchool
+  term: 2016
+  description: |-
+    A web platform to manage information of a medium sized music school.
+    It supports classroom management, progress tracking, attendance, and payroll.
+  accomplishment: "Consolidated fragmented record-keeping into one platform, giving instructors and administrators a shared view of student progress and reducing payroll calculation time."
+  technologies:
+    - PHP
+    - Laravel
+    - jQuery
+    - MySQL
+    - HTML/JS/CSS
