@@ -259,11 +259,11 @@ layout: default
   <img class="profile-photo" src="{{ site.data.info.image | relative_url }}" alt="{{ site.data.info.name }}">
   <div class="profile-meta">
     <h1>{{ site.data.info.name }}</h1>
-    <div class="title-line">{{ site.data.info.designation }}</div>
+    <!-- <div class="title-line">{{ site.data.info.designation }}</div>
     <div class="address-line">{{ site.data.info.affiliation }}</div>
     <div class="address-line">
       {% for line in site.data.info.address %}{{ line }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
-    </div>
+    </div> -->
     <div class="email-line">gavindya [dot] ut [at] gmail [dot] com</div>
     <div class="profile-buttons">
       <a href="{{ site.data.info.cv | relative_url }}" target="_blank" class="btn">CV</a>
