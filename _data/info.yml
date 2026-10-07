@@ -1,9 +1,7 @@
 name: Gavindya Jayawardena
-about: >-
-  I am a postdoctoral researcher at the School of Information, The University of Texas at Austin, working with Dr. Jacek Gwizdka.
-  **My research asks a simple question: what is happening in the mind while someone searches for information, reads a document, or decides whether to trust what they see?**
+about: >- 
+  I am a postdoctoral researcher, and my research asks a simple question: ** What is happening in the mind while someone searches for information, reads a document, or decides whether to trust what they see?**
   I use eye tracking and pupillometry to answer it in real time.
-
 
   The eyes are remarkably honest. Where we look, how long we linger, and how our pupils respond to mental demand all carry traces of cognitive state that people cannot easily mask or report.
   I develop algorithms that read those traces live, while the interaction is still happening.
