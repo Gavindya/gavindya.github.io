@@ -1,4 +1,11 @@
-- affiliation: The University of Texas at Austin, USA
+- affiliation: The Pennsylvania State University, University Park, PA, USA
+  logo: /assets/img/pennstate.png
+  designation: Postdoctoral Scholar, Department of Informatics and Intelligent Systems, College of Information Sciences and Technology
+  term: Nov 2026 - Present
+  description: |-
+    My research focuses on developing computational cognitive models of expert vulnerability analysts using neurophysiological data.
+    
+- affiliation: The University of Texas at Austin, Austin, TX, USA
   logo: /assets/img/utaustin.png
   designation: Bullard Postdoctoral Research Fellow, School of Information
   term: Sep 2024 - Aug 2026
@@ -9,7 +16,7 @@
     * Examined the effects of working memory capacity and search task complexity on cognitive load during information retrieval, connecting individual cognitive differences to information-seeking behavior (CHIIR 2026, CHIIR 2025).
     * Conducted studies on human-AI interaction, including an LLM-based virtual study examining cognitive load and learning outcomes using Bloom's Taxonomy assessments.
 
-- affiliation: Old Dominion University, USA
+- affiliation: Old Dominion University, Norfolk, VA, USA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
